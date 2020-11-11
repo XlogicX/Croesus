@@ -204,13 +204,13 @@ def why_the_food(needed,avoid,ingredient,foods,tmin,tmax,recipedata):
 		output = foods[ingredient][nutrient]/500		# Get the nutrient ammount per gram
 		output *= recipedata[ingredient]['res']			# multiply by serving ammount
 		output /= tmin[nutrient]						# RDI value for serving of food
-		print('\t{}: {} - ({:.4f}%)'.format(nutrient,foods[ingredient][nutrient],output))
+		print('\t{}: {} - ({:.4f}%)'.format(nutrient,foods[ingredient][nutrient],output*100))
 	print('----------------------------------------')
 	for nutrient in avoid:
 		output = foods[ingredient][nutrient]/500		# Get the nutrient ammount per gram
 		output *= recipedata[ingredient]['res']			# multiply by serving ammount
 		output /= tmax[nutrient] + 0.000000000000001	# % to max RDI	(+ very small amount to not div by 0)
-		print('\t{}: {} - ({:.4f}% to max)'.format(nutrient,foods[ingredient][nutrient],output))
+		print('\t{}: {} - ({:.4f}% to max)'.format(nutrient,foods[ingredient][nutrient],output*100))
 
 #=====================================================#
 #                 Init Some Data                      #
