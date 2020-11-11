@@ -60,24 +60,189 @@ When running the program the first time, I noticed that it didn't include brocco
 
 I also have a very specific list of nutrients listed in the recipe file that I use the -o flag to override with. I explicitely didn't want my program to try for the omegas, as I suppliment. I use nutritional yeast, so don't need the B vitamins (but included B5 as my nooch doesn't have that one). I get my choline from a choline/inositol suppliment. I also suppliment Vitamin D as I'm too high on the hemisphere to always be getting that from the sun. I get plenty of Vitamin E and Calcium in the amount of unsweetened almond chocolate milk I drink in a day. Just one brazil nut is more than enough as a selenium suppliment (and I eat that one brazil nut a day). And sodium? I don't think that's a problem for us to get the MINIMUM of anyway.
 
-The recipe I end up with is:<br>
+It is slightly different than the salad I always ordered before this one, and is nutritionally better consistently down the line compared to it. Though, it's marginally better; like 10%-50% increases for each nutrient, but usually around the 10% range for most. I guess this didn't surprise me, so long as all the ingredients I'm throwing into the bowl are healthy veggies and healthy whole foods, it's kind of hard to fuck up. But why not squeeze that extra 10% of efficiency out of the calories consumed?
+
+Use-Case Output
+====
+xlogicx$ python3 nutrition_balancer.py -r salad.recipe -o -d<br>
+Adding Minimums: Adding 36 grams of lettucegreen<br>
+Adding Minimums: Adding 36 grams of lettucered<br>
+Adding Minimums: Adding 30 grams of spinach<br>
+Adding Minimums: Adding 27 grams of oliveoil<br>
+Adding Minimums: Adding 22 grams of broccoli<br>
+We seem to need these the most:  Phosphorus fiber protein B5 Zinc<br>
+But we need to avoid these:  Vitamin K Folate Iron Manganese omega6<br>
+We think a 44 gram serving of kidneybean most fits the bill with:<br>
+----------------------------------------
+	Phosphorus: 0.605 - (0.0761%)
+	fiber: 27.5 - (0.0637%)
+	protein: 39.9 - (0.0702%)
+	B5: 0.00104 - (0.0183%)
+	Zinc: 0.00375 - (0.0300%)
+----------------------------------------
+	Vitamin K: 3.95e-05 - (0.0017% to max)
+	Folate: 0.00014 - (0.0123% to max)
+	Iron: 0.0075 - (0.0147% to max)
+	Manganese: 0.00192 - (0.0154% to max)
+	omega6: 0.6 - (0.0018% to max)
+Additional Serving 0: Adding 44 grams of kidneybean<br><br>
+
+We seem to need these the most:  protein Potassium Magnesium B5 Zinc<br>
+But we need to avoid these:  Vitamin K Folate Iron Manganese Vitamin C<br>
+We think a 41 gram serving of chickpeas most fits the bill with:<br>
+----------------------------------------
+	protein: 35.25 - (0.0578%)
+	Potassium: 0.63 - (0.0152%)
+	Magnesium: 0.13 - (0.0254%)
+	B5: 0.0012 - (0.0197%)
+	Zinc: 0.000315 - (0.0023%)
+---------------------------------------
+	Vitamin K: 1.7e-05 - (0.0007% to max)
+	Folate: 0.00024 - (0.0197% to max)
+	Iron: 0.00535 - (0.0097% to max)
+	Manganese: 0.00423 - (0.0315% to max)
+	Vitamin C: 0.0005 - (0.0000% to max)
+Additional Serving 1: Adding 41 grams of chickpeas<br><br>
+
+We seem to need these the most:  protein Magnesium Potassium B5 Zinc<br>
+But we need to avoid these:  Vitamin K Manganese Folate Iron Copper<br>
+We think a 57 gram serving of avacado most fits the bill with:<br>
+----------------------------------------
+	protein: 9.8 - (0.0223%)
+	Magnesium: 0.145 - (0.0394%)
+	Potassium: 2.535 - (0.0850%)
+	B5: 0.00732 - (0.1669%)
+	Zinc: 0.0034 - (0.0352%)
+----------------------------------------
+	Vitamin K: 0.000105 - (0.0060% to max)
+	Manganese: 0.00075 - (0.0078% to max)
+	Folate: 0.000445 - (0.0507% to max)
+	Iron: 0.00305 - (0.0077% to max)
+	Copper: 0.00085 - (0.0097% to max)
+Additional Serving 2: Adding 57 grams of avacado<br><br>
+
+We seem to need these the most:  Phosphorus Potassium protein Magnesium Zinc<br>
+But we need to avoid these:  Vitamin K Folate Manganese Iron Copper<br>
+We think a 44 gram serving of artichokeheart most fits the bill with:<br>
+----------------------------------------
+	Phosphorus: 0.36291 - (0.0456%)
+	Potassium: 1.42202 - (0.0368%)
+	protein: 14.37 - (0.0253%)
+	Magnesium: 0.20883 - (0.0438%)
+	Zinc: 0.00199 - (0.0159%)
+----------------------------------------
+	Vitamin K: 7.358e-05 - (0.0032% to max)
+	Folate: 0.00044245 - (0.0389% to max)
+	Manganese: 0.00112 - (0.0090% to max)
+	Iron: 0.00304 - (0.0059% to max)
+	Copper: 0.00063 - (0.0055% to max)
+Additional Serving 3: Adding 44 grams of artichokeheart<br><br>
+
+We seem to need these the most:  Vitamin A Potassium protein Magnesium Zinc<br>
+But we need to avoid these:  Vitamin K Folate Manganese Iron Copper<br>
+We think a 41 gram serving of corn most fits the bill with:<br>
+----------------------------------------
+	Vitamin A: 995 - (0.0272%)
+	Potassium: 0.66 - (0.0159%)
+	protein: 12.75 - (0.0209%)
+	Magnesium: 0.14 - (0.0273%)
+	Zinc: 0.00315 - (0.0235%)
+----------------------------------------
+	Vitamin K: 1.5e-06 - (0.0001% to max)
+	Folate: 0.000175 - (0.0143% to max)
+	Manganese: 0.00078 - (0.0058% to max)
+	Iron: 0.00235 - (0.0043% to max)
+	Copper: 0.00024 - (0.0020% to max)
+Additional Serving 4: Adding 41 grams of corn<br><br>
+
+We seem to need these the most:  B5 Potassium Magnesium protein Zinc<br>
+But we need to avoid these:  Folate Vitamin K Manganese Iron Copper<br>
+We think a 24 gram serving of mushrooms most fits the bill with:<br>
+----------------------------------------
+	B5: 0.00749 - (0.0719%)
+	Potassium: 1.59 - (0.0224%)
+	Magnesium: 0.045 - (0.0051%)
+	protein: 15.45 - (0.0148%)
+	Zinc: 0.0026 - (0.0113%)
+----------------------------------------
+	Folate: 8.5e-05 - (0.0041% to max)
+	Vitamin K: 0 - (0.0000% to max)
+	Manganese: 0.00024 - (0.0010% to max)
+	Iron: 0.0025 - (0.0027% to max)
+	Copper: 0.00159 - (0.0076% to max)
+Additional Serving 5: Adding 24 grams of mushrooms<br><br>
+
+We seem to need these the most:  Vitamin A Potassium protein Magnesium Zinc<br>
+But we need to avoid these:  Folate Vitamin K Manganese Iron Copper<br>
+We think a 39 gram serving of beets most fits the bill with:<br>
+----------------------------------------
+	Vitamin A: 175 - (0.0045%)
+	Potassium: 1.525 - (0.0350%)
+	protein: 8.4 - (0.0131%)
+	Magnesium: 0.115 - (0.0214%)
+	Zinc: 0.00175 - (0.0124%)
+----------------------------------------
+	Folate: 0.0004 - (0.0312% to max)
+	Vitamin K: 1e-06 - (0.0000% to max)
+	Manganese: 0.00163 - (0.0116% to max)
+	Iron: 0.00395 - (0.0068% to max)
+	Copper: 0.00037 - (0.0029% to max)
+Additional Serving 6: Adding 39 grams of beets<br><br>
+
+Nutrition Facts:<br>
+	calories        552.016240000<br>
+	carbs           46.173180000<br>
+	*fiber           15.891920000 (41.82%) / (136.37%)<br>
+	fat             38.432220000<br>
+	monofat         20.082180000<br>
+	polyfat         4.823460000<br>
+	omega3          0.498300000 (31.14%) / (101.55%)<br>
+	omega6          4.034100000 (23.73%) / (77.38%)<br>
+	saturatedfat    5.298320000<br>
+	*protein         14.017560000 (28.04%) / (91.42%)<br>
+	B1              0.000237100 (19.76%) / (64.43%)<br>
+	B2              0.000406400 (31.26%) / (101.94%)<br>
+	B3              0.003888120 (24.30%) / (79.24%)<br>
+	*B5              0.001857940 (37.16%) / (121.17%)<br>
+	B6              0.000538360 (41.41%) / (135.04%)<br>
+	B12             0.000000010 (0.40%) / (1.30%)<br>
+	Biotin          0.000000000 (0.00%) / (0.00%)<br>
+	Choline         0.086857760 (15.79%) / (51.50%)<br>
+	*Folate          0.000248096 (62.02%) / (202.25%)<br>
+	*Vitamin A       9312.427440000 (310.41%) / (1012.19%)<br>
+	*Vitamin C       0.036653520 (40.73%) / (132.80%)<br>
+	Vitamin D       1.680000000 (0.28%) / (0.91%)<br>
+	Vitamin E       0.006748120 (44.99%) / (146.69%)<br>
+	*Vitamin K       0.000314168 (261.81%) / (853.69%)<br>
+	Calcium         0.149727920 (14.97%) / (48.82%)<br>
+	Chromium        0.000000000 (0.00%) / (0.00%)<br>
+	*Copper          0.000581500 (64.61%) / (210.68%)<br>
+	Fluoride        0.000000000 (0.00%) / (0.00%)<br>
+	Iodine          0.000000000 (0.00%) / (0.00%)<br>
+	*Iron            0.003976120 (49.70%) / (162.07%)<br>
+	*Magnesium       0.119597040 (28.48%) / (92.85%)<br>
+	*Manganese       0.001327540 (57.72%) / (188.21%)<br>
+	Molybdenum      0.000000000 (0.00%) / (0.00%)<br>
+	*Phosphorus      0.268696080 (38.39%) / (125.17%)<br>
+	*Potassium       1.134607760 (33.37%) / (108.81%)<br>
+	Selenium        0.000008039 (14.62%) / (47.66%)<br>
+	Sodium          0.219973920 (14.66%) / (47.82%)<br>
+	*Zinc            0.001812150 (16.47%) / (53.72%)<br>
 Ingredients to Add:<br>
 	lettucegreen: 36 grams<br>
 	lettucered: 36 grams<br>
 	spinach: 30 grams<br>
 	oliveoil: 27 grams<br>
+	kidneybean: 44 grams<br>
 	chickpeas: 41 grams<br>
-	redonion: 48 grams<br>
 	broccoli: 22 grams<br>
-	olives: 40 grams<br>
-	olivesgreen: 40 grams<br>
 	mushrooms: 24 grams<br>
+	artichokeheart: 44 grams<br>
+	avacado: 57 grams<br>
 	beets: 39 grams<br>
 	corn: 41 grams<br>
-	Total: 424<br>
-
-It is slightly different than the salad I always ordered before this one, and is nutritionally better consistently down the line compared to it. Though, it's marginally better; like 10%-50% increases for each nutrient, but usually around the 10% range for most. I guess this didn't surprise me, so long as all the ingredients I'm throwing into the bowl are healthy veggies and healthy whole foods, it's kind of hard to fuck up. But why not squeeze that extra 10% of efficiency out of the calories consumed?
-
+	Total: 441
+	
 Bugs
 ====
 It most definitley has alot of them.
