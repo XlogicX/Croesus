@@ -73,12 +73,14 @@ Adding Minimums: Adding 22 grams of broccoli<br>
 We seem to need these the most:  Phosphorus fiber protein B5 Zinc<br>
 But we need to avoid these:  Vitamin K Folate Iron Manganese omega6<br>
 We think a 44 gram serving of kidneybean most fits the bill with:<br>
+
 ----------------------------------------
 	Phosphorus: 0.605 - (0.0761%)
 	fiber: 27.5 - (0.0637%)
 	protein: 39.9 - (0.0702%)
 	B5: 0.00104 - (0.0183%)
 	Zinc: 0.00375 - (0.0300%)
+
 ----------------------------------------
 	Vitamin K: 3.95e-05 - (0.0017% to max)
 	Folate: 0.00014 - (0.0123% to max)
@@ -90,12 +92,14 @@ Additional Serving 0: Adding 44 grams of kidneybean<br><br>
 We seem to need these the most:  protein Potassium Magnesium B5 Zinc<br>
 But we need to avoid these:  Vitamin K Folate Iron Manganese Vitamin C<br>
 We think a 41 gram serving of chickpeas most fits the bill with:<br>
+
 ----------------------------------------
 	protein: 35.25 - (0.0578%)
 	Potassium: 0.63 - (0.0152%)
 	Magnesium: 0.13 - (0.0254%)
 	B5: 0.0012 - (0.0197%)
 	Zinc: 0.000315 - (0.0023%)
+
 ---------------------------------------
 	Vitamin K: 1.7e-05 - (0.0007% to max)
 	Folate: 0.00024 - (0.0197% to max)
@@ -107,12 +111,14 @@ Additional Serving 1: Adding 41 grams of chickpeas<br><br>
 We seem to need these the most:  protein Magnesium Potassium B5 Zinc<br>
 But we need to avoid these:  Vitamin K Manganese Folate Iron Copper<br>
 We think a 57 gram serving of avacado most fits the bill with:<br>
+
 ----------------------------------------
 	protein: 9.8 - (0.0223%)
 	Magnesium: 0.145 - (0.0394%)
 	Potassium: 2.535 - (0.0850%)
 	B5: 0.00732 - (0.1669%)
 	Zinc: 0.0034 - (0.0352%)
+
 ----------------------------------------
 	Vitamin K: 0.000105 - (0.0060% to max)
 	Manganese: 0.00075 - (0.0078% to max)
@@ -124,12 +130,14 @@ Additional Serving 2: Adding 57 grams of avacado<br><br>
 We seem to need these the most:  Phosphorus Potassium protein Magnesium Zinc<br>
 But we need to avoid these:  Vitamin K Folate Manganese Iron Copper<br>
 We think a 44 gram serving of artichokeheart most fits the bill with:<br>
+
 ----------------------------------------
 	Phosphorus: 0.36291 - (0.0456%)
 	Potassium: 1.42202 - (0.0368%)
 	protein: 14.37 - (0.0253%)
 	Magnesium: 0.20883 - (0.0438%)
 	Zinc: 0.00199 - (0.0159%)
+
 ----------------------------------------
 	Vitamin K: 7.358e-05 - (0.0032% to max)
 	Folate: 0.00044245 - (0.0389% to max)
@@ -141,12 +149,14 @@ Additional Serving 3: Adding 44 grams of artichokeheart<br><br>
 We seem to need these the most:  Vitamin A Potassium protein Magnesium Zinc<br>
 But we need to avoid these:  Vitamin K Folate Manganese Iron Copper<br>
 We think a 41 gram serving of corn most fits the bill with:<br>
+
 ----------------------------------------
 	Vitamin A: 995 - (0.0272%)
 	Potassium: 0.66 - (0.0159%)
 	protein: 12.75 - (0.0209%)
 	Magnesium: 0.14 - (0.0273%)
 	Zinc: 0.00315 - (0.0235%)
+
 ----------------------------------------
 	Vitamin K: 1.5e-06 - (0.0001% to max)
 	Folate: 0.000175 - (0.0143% to max)
@@ -158,12 +168,14 @@ Additional Serving 4: Adding 41 grams of corn<br><br>
 We seem to need these the most:  B5 Potassium Magnesium protein Zinc<br>
 But we need to avoid these:  Folate Vitamin K Manganese Iron Copper<br>
 We think a 24 gram serving of mushrooms most fits the bill with:<br>
+
 ----------------------------------------
 	B5: 0.00749 - (0.0719%)
 	Potassium: 1.59 - (0.0224%)
 	Magnesium: 0.045 - (0.0051%)
 	protein: 15.45 - (0.0148%)
 	Zinc: 0.0026 - (0.0113%)
+
 ----------------------------------------
 	Folate: 8.5e-05 - (0.0041% to max)
 	Vitamin K: 0 - (0.0000% to max)
@@ -175,12 +187,14 @@ Additional Serving 5: Adding 24 grams of mushrooms<br><br>
 We seem to need these the most:  Vitamin A Potassium protein Magnesium Zinc<br>
 But we need to avoid these:  Folate Vitamin K Manganese Iron Copper<br>
 We think a 39 gram serving of beets most fits the bill with:<br>
+
 ----------------------------------------
 	Vitamin A: 175 - (0.0045%)
 	Potassium: 1.525 - (0.0350%)
 	protein: 8.4 - (0.0131%)
 	Magnesium: 0.115 - (0.0214%)
 	Zinc: 0.00175 - (0.0124%)
+
 ----------------------------------------
 	Folate: 0.0004 - (0.0312% to max)
 	Vitamin K: 1e-06 - (0.0000% to max)
@@ -227,7 +241,7 @@ Nutrition Facts:<br>
 	*Potassium       1.134607760 (33.37%) / (108.81%)<br>
 	Selenium        0.000008039 (14.62%) / (47.66%)<br>
 	Sodium          0.219973920 (14.66%) / (47.82%)<br>
-	*Zinc            0.001812150 (16.47%) / (53.72%)<br>
+	*Zinc            0.001812150 (16.47%) / (53.72%)<br><br>
 Ingredients to Add:<br>
 	lettucegreen: 36 grams<br>
 	lettucered: 36 grams<br>
