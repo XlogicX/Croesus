@@ -2,18 +2,18 @@ Takes your ingredient suggestions and crafts a recipe (portions) that attempts t
 
 Usage
 ====
-nutrition_balancer.py [-h] [-r R] [-d [D]] [-o [O]] [-s [S]] [-b B]
+nutrition_balancer.py [-h] [-r R] [-d [D]] [-o [O]] [-s [S]] [-b B]<br><br>
 
-Nutritionally Balanced Ingredient Ratios based on general recipe suggestions
+Nutritionally Balanced Ingredient Ratios based on general recipe suggestions<br><br>
 
-optional arguments:
-  -h, --help  show this help message and exit
-  -r R        Recipe File
-  -d [D]      Debug - Tells you what the program is thinking
-  -o [O]      Override Nutrient goals with the one in recipe file
-  -s [S]      Suggest target nutrients (like override), but allow program to
-              still eliminate nutrients in your suggestion that aren't
-              practical
+optional arguments:<br>
+  -h, --help  show this help message and exit<br>
+  -r R        Recipe File<br>
+  -d [D]      Debug - Tells you what the program is thinking<br>
+  -o [O]      Override Nutrient goals with the one in recipe file<br>
+  -s [S]      Suggest target nutrients (like override), but allow program to<br>
+              still eliminate nutrients in your suggestion that aren't<br>
+              practical<br>
   -b B        Ammount of nutrients to back off on
 
 Configuration Files
@@ -60,21 +60,21 @@ When running the program the first time, I noticed that it didn't include brocco
 
 I also have a very specific list of nutrients listed in the recipe file that I use the -o flag to override with. I explicitely didn't want my program to try for the omegas, as I suppliment. I use nutritional yeast, so don't need the B vitamins (but included B5 as my nooch doesn't have that one). I get my choline from a choline/inositol suppliment. I also suppliment Vitamin D as I'm too high on the hemisphere to always be getting that from the sun. I get plenty of Vitamin E and Calcium in the amount of unsweetened almond chocolate milk I drink in a day. Just one brazil nut is more than enough as a selenium suppliment (and I eat that one brazil nut a day). And sodium? I don't think that's a problem for us to get the MINIMUM of anyway.
 
-The recipe I end up with is:
-Ingredients to Add:
-	lettucegreen: 36 grams
-	lettucered: 36 grams
-	spinach: 30 grams
-	oliveoil: 27 grams
-	chickpeas: 41 grams
-	redonion: 48 grams
-	broccoli: 22 grams
-	olives: 40 grams
-	olivesgreen: 40 grams
-	mushrooms: 24 grams
-	beets: 39 grams
-	corn: 41 grams
-	Total: 424
+The recipe I end up with is:<br>
+Ingredients to Add:<br>
+	lettucegreen: 36 grams<br>
+	lettucered: 36 grams<br>
+	spinach: 30 grams<br>
+	oliveoil: 27 grams<br>
+	chickpeas: 41 grams<br>
+	redonion: 48 grams<br>
+	broccoli: 22 grams<br>
+	olives: 40 grams<br>
+	olivesgreen: 40 grams<br>
+	mushrooms: 24 grams<br>
+	beets: 39 grams<br>
+	corn: 41 grams<br>
+	Total: 424<br>
 
 It is slightly different than the salad I always ordered before this one, and is nutritionally better consistently down the line compared to it. Though, it's marginally better; like 10%-50% increases for each nutrient, but usually around the 10% range for most. I guess this didn't surprise me, so long as all the ingredients I'm throwing into the bowl are healthy veggies and healthy whole foods, it's kind of hard to fuck up. But why not squeeze that extra 10% of efficiency out of the calories consumed?
 
