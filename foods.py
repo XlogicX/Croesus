@@ -1235,14 +1235,3 @@ food = {
 		"Zinc":0.0026},
 
 }
-
-
-#pepper
-#tbsp chili powder
-#tsp cumin
-#tsp corriander
-#tsp garlic powder
-#1/4 tsp cyan
-#splash of soy sauce
-#turmeric
-#chili peppers?
