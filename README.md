@@ -261,3 +261,8 @@ Ingredients to Add:<br>
 Bugs
 ====
 It most definitley has alot of them.
+
+Gratuitus Trivia
+====
+There's an app called Cronometer that has an 'Oracle' feature that suggests your next meal based on what you've eaten so far. I don't find this Oracle as useful as I think it could be.
+https://en.wikipedia.org/wiki/Croesus#Campaign_against_Persia_and_testing_of_oracle
